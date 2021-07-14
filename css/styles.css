@@ -1,0 +1,140 @@
+body{
+font-family: "Montserrat-bold";
+
+}
+#title{
+  background-color: #548CA8;
+color: white;
+padding-bottom: 280px;
+}
+.title-desc{
+font-family: "Montserrat-bold";
+  font-size: 3rem;
+line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.dog-pic{
+ transform: rotate(25deg);
+  width: 60%;
+position: absolute;
+right: 30%;
+}
+.navbar{
+  padding: 0 0 80px 0;
+}
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+}
+.nav-link{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.btn{
+margin: 80px 20px 20px 0;
+}
+#features{
+  padding: 7% 15%;
+position: relative;
+background-color: white;
+z-index: 1;
+
+
+
+}
+.h-fea{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+.p-fea{
+  color: #8f8f8f;
+  font-family: "Montserrat-bold";
+
+}
+.icon{
+  padding-bottom: 20px;
+  color: #548CA8;
+
+}
+.icon:hover{
+  color:#476072;
+}
+.features-box{
+    text-align: center;
+padding: 5%;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #548CA8;
+color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonialsh2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-img{
+  border-radius: 100%;
+  padding: 20px;
+width: 20%;
+}
+#press{
+    background-color: #548CA8;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+  h
+}
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3%;
+}
+#cta{
+  text-align: center;
+  background-color: #548CA8;
+  padding: 7% 15%;
+font-family: "Montserrat-bold";
+}
+.cta-btn{
+
+  font-family: "Montserrat-bold";
+margin: 80px 20px 20px 0;
+}
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+}
+.footer-icon{
+  padding: 20px;
+  text-align: center;
+}
+.footer-row{
+text-align: center;
+}
+@media (max-width:1013px) {
+  .dog-pic{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+padding-bottom: 0;
+  }
+}
